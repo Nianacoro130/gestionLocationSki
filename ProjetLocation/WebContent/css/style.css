@@ -1,0 +1,180 @@
+@charset "ISO-8859-1";
+
+body{
+	margin:0px;
+}
+
+/* Navigation */
+
+nav a{
+	margin:30px;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+nav a:hover{
+	opacity: 0.5;
+}
+
+nav{
+	padding:32px;
+	background: #f1f3f4;
+	display:flex;
+	justify-content: space-between;
+}
+
+.nav-left{
+	width:80%;
+}
+
+main{
+	margin: 0 10%;
+}
+
+
+
+
+/* Liste Locations */
+
+.partie-principale{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+
+.partie-gauche{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.partie-gauche a{
+	margin: 10px 0;
+}
+
+.partie-droite{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.partie-droite form{
+	display:flex;
+	justify-content: space-around;
+	width: 550px;
+}
+
+
+.partie-droite label{
+	display: flex;
+	flex-direction: column;
+}
+
+.liste-location{
+	border: 2px solid grey;
+	border-radius: 20px;
+	height: 500px;
+	width: 700px;
+	margin: 15px 0;
+	overflow: auto;
+}
+
+.liste-location table{
+	width:100%;
+}
+
+.liste-location table td{
+	text-align:center;
+}
+
+
+
+
+/* Nouvelle Location */
+
+
+.main-nouvelle-loc{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.cont-form-nouvelle-loc{
+	display: flex;
+	justify-content: center;
+	margin: 150px 0;
+}
+
+.cont-form-nouvelle-loc form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid grey;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+.cont-form-nouvelle-loc label{
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	
+}
+
+
+/* liste article */
+
+.cont-article{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.article{
+	margin: 55px;
+	text-align: center;
+	box-shadow:0px 1px 15px 5px rgba(0,0,0,0.10);
+	padding: 45px;
+	border-radius: 11px;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+}
+
+.article button, .article input[type=submit], button{
+	background: #5b8ae3;
+	padding: 10px 15px;
+	color: white;
+	font-weight: bold;
+	border: 0;
+}
+
+.article button:hover, .article input[type=submit]:hover, button:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.article img{
+	margin-bottom: 10px;
+}
+
+
+
+/* location */
+
+.cont-form-louer form{
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+}
+
+.cont-form-louer form label{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+
+

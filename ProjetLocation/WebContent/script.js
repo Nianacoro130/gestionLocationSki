@@ -1,0 +1,7 @@
+const progressBar = document.getElementsByClassName('progress-bar')[0]
+         setInterval(() => {
+         const computedStyle = getComputedStyle(progressBar)
+         const width = parseFloat(computedStyle.getPropertyValue('--width')) || 20
+         progressBar.style.setProperty('--width', width + .2)
+}, 10)
+

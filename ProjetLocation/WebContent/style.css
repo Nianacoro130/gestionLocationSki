@@ -1,0 +1,95 @@
+/*contenu Enregistrement */
+.container-register {
+	position :relative;
+	margin:150px auto;
+	width:400px;
+	height:390px;
+	padding : 0 auto;
+	background-color : #e3dcd5;
+	border-radius: 25px;
+	box-shadow:  3px 3px 3px 3px #555;
+	
+}
+/*titre enregistrement et connexion*/
+h3 {
+	text-align:center;
+}
+
+/*titre label pour la boite enregistrement et conenextion */
+td {
+	font-weight:bold;
+}
+
+/* bouton*/
+button.btn.btn-primary {
+    display: block;
+    margin : auto;
+    margin-bottom : 10px;
+	
+}
+/* p lien vers enregistrement ou connexion */
+
+p {
+	display: block;
+	margin-top: 10px;
+	text-align:center;
+	font-weight:bold;
+	font-style: italic;
+	
+}
+
+/* contenu de connexion*/
+.container-login {
+	position :relative;
+	margin:150px auto;
+	width:400px;
+	height:200px;
+	padding : 0 auto;
+	background-color : #e3dcd5;
+	border-radius : 25px;
+	box-shadow:  3px 3px 3px 3px #555;
+	
+}
+
+
+/* bar de chargement */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.progress-bar {
+	position: relative;
+	margin: 280px auto  ;
+	width: 500px;
+	height: 3em;
+	background-color: #111;
+	border-radius: 1.5em;
+	color: white;
+}
+
+.progress-bar::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 2rem;
+	max-width: calc(100% - 1em);
+	background-color: rgb(0, 0, 0);
+	border-radius: 1em;
+	padding: 1em;
+	display-flex : 1px;
+}
+
+/*contenu */
+#content {	
+	display:none;
+}
